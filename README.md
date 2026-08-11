@@ -6,7 +6,7 @@
 
 **Grupo:**
 - Otto Schmitz
-- Arthur Pasini
+- Fábio Silveira
 
 ---
 
@@ -18,4 +18,4 @@
 
 **Group:**
 - Otto Schmitz
-- Arthur Pasini
+- Fábio Silveira
