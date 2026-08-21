@@ -71,13 +71,11 @@ def exec_sort(func: Callable[[list[int]], list[int]], arrays: list[list[int]]) -
 
 
 def main() -> None:
-    # unsorted_arrays = [generate_array(n) for n in (1000, 2000, 5000, 10000, 50000, 100000, 500000, 10000000)]
-    # print(exec_sort(bubble_sort, unsorted_arrays))
+    # unsorted_arrays = [generate_array(n) for n in (2, 10)]
+    unsorted_arrays = [generate_array(n) for n in (1000, 2000, 5000, 10000, 50000, 100000, 500000, 10000000)]
     
-    unsorted_arrays = [generate_array(n) for n in (2, 10)]
-
     print(exec_sort(bubble_sort, unsorted_arrays))
-    exec_sort(insertion_sort, unsorted_arrays)
+    print(exec_sort(insertion_sort, unsorted_arrays))
 
 
 if __name__ == "__main__":
