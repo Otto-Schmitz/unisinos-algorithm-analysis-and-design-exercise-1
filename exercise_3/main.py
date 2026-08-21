@@ -65,7 +65,6 @@ def exec_sort(func: Callable[[list[int]], list[int]], arrays: list[list[int]]) -
         result["sorted"][len(data)] = {
             "sort": func.__name__,
             "time_ms": elapsed * 1000,
-            "sorted_array": data
         }
 
     return result
